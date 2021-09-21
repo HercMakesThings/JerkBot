@@ -5,7 +5,7 @@ const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_
 //const client = new Discord.Client();
 
 client.on('ready', () => {
-    console.log('Our Bot is ready to goooooo!!!');
+    console.log('logged in as ' + client.user.tag + '!!!');
 });
 
 client.on('message', msg => {
